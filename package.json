@@ -1,0 +1,30 @@
+{
+  "name": "ol3-labeler",
+  "version": "0.1.0",
+  "description": "OpenLayers 3 library for automated label placement using simulated annealing.",
+  "main": "labeler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p build && uglifyjs --compress --mangle -- src/labeler.js > build/labeler.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhaertwig/ol3-labeler.git"
+  },
+  "keywords": [
+    "ol3",
+    "automated",
+    "label",
+    "placement",
+    "openlayers 3"
+  ],
+  "author": "Mario Härtwig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhaertwig/ol3-labeler/issues"
+  },
+  "homepage": "https://github.com/mhaertwig/ol3-labeler",
+  "devDependencies": {
+    "uglify-js": "^2.4.24"
+  }
+}
